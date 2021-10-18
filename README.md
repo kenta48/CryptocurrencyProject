@@ -2,8 +2,8 @@
 Website to compare two cryptocurrency prices(BTC&amp;ETH) at the two different exchanges
 
 ## instructions on how to build and run
-If using the terminal, type <code>python3 -m http.server</code> in that directory, or can use the command <code>npx http-server [path] [options]</code><br/>  
-Personally, I used the VScode to build and used “live server” that is part of Visual Studio Code<br/>
+If using the terminal, type <code>python3 -m http.server</code> in that directory, or can use the command <code>npx http-server [path] [options]</code><br/>  Personally, I used the VScode to build and used “live server” that is part of Visual Studio Code<br/>  
+
 There is a possibility to encounter intermitten CORS errors during the execution, but since I am connecting to the third party APIs, I have no control over the header. Even though that error will not affect the front-end result on my browser (Chrome), If somehing wrong occured, please use a web browser extention to deal with the CORS error such as "moesif origin & cors changer" or "allow cors: access-control-allow-origin"
 
 ### Questionnaire:
