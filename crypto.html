@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+    <head>
+    <title>Crypto Webpage</title>
+    </head>
+    <body>
+        <h1>Cryptocurrencies Webpage</h1>
+        <p>
+            This is a website to compare two different cryptocurrencies (Bitcoin & Ethereum) price
+            at two different exchanges (n.exchange & Bitstamp). The tables below show the live prices of each currency at each exchange.
+        </p>
+        <ul>
+            <li>
+                <a href="https://n.exchange/">n.exchange</a>
+            </li>
+            <li>
+                <a href="https://www.bitstamp.net/">Bitstamp</a>
+            </li>
+          </ul>
+        <h2>Bitcoin</h2>
+        <div class="bitcoin">
+            <canvas id="canvas1" height="100px" width="400px"></canvas>
+            <canvas id="canvas2" height="100px" width="400px"></canvas>
+        </div>
+        <p>
+            Bitcoin prices at the two different exchanges, and blinkings show the recommendation:
+        </p>
+        <p>
+            Recommendation: Buy at <span id="btc_buy">n.exchange</span> / Sell at <span id="btc_sell">bitstamp</span>
+        </p>
+
+
+        <h2>Ethereum</h2>
+        <div class="ethereum">
+            <canvas id="canvas3" height="100px" width="400px"></canvas>
+            <canvas id="canvas4" height="100px" width="400px"></canvas>
+        </div>
+        
+        <p>
+            Ethereum prices at the two different exchanges, and blinkings show the recommendation:
+        </p>
+        <p>
+            Recommendation: Buy at <span id="eth_buy">n.exchange</span> / Sell at <span id="eth_sell">bitstamp</span>
+        </p>
+        <script src="crypto.js" type="module" defer></script>
+    </body>
+</html>
