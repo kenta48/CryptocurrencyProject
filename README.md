@@ -10,5 +10,5 @@ Personally, I used the VScode to build and used “live server” that is part o
 2. Is any part of it over-designed? ( It is fine to over-design to showcase your skills as long as you are clear about it)<br/>
    The blinking function to show the recomendation side prices at each buy/sell and exchange is over-designed. Also, I over-designed the canvas to show each data.
 3. If you have to scale your solution to 100 users/second traffic what changes would you make, if any?<br/>
-   I will use a reliable and fast API to have access to live currency data even though many users try to access at the same time. Also, I will implement the system    into reliable cloud server to increase the network capacity and speed to trade. 
+   I will use a reliable and fast API to have access to live currency data even though many users try to access at the same time. Also, I will implement the trading    system onto reliable cloud server to increase the network capacity and speed to trade. 
 4. What are some other enhancements you would have made, if you had more time to do this implementation<br/>
