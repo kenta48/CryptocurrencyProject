@@ -2,7 +2,7 @@
 Website to compare two cryptocurrency prices(BTC&amp;ETH) at the two different exchanges
 
 ## instructions on how to build and run
-
+<code>python3 -m http.server</code>
 ### Questionnaire:
 1. Are there any sub-optimal choices( or short cuts taken due to limited time ) in your implementation?
 2. Is any part of it over-designed? ( It is fine to over-design to showcase your skills as long as you are clear about it)
