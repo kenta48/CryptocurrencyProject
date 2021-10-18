@@ -16,5 +16,4 @@ There is a possibility to encounter intermitten CORS errors during the execution
 4. **What are some other enhancements you would have made, if you had more time to do this implementation**<br/>
    I used the Rest API, which is easy and simple to implement, but I could have implemented FIX API ideally, or at least Websocket API. Also, I wanted to use a fast    API, which is possible to communicate with the market data in a few milliseconds speed, but since I encounted the CORS errors when communicating the target API      server, I decided to use the other APIs for the market data. I could have created my own proxy to avoid the CORS errors and could have built the system using FIX    APIs or Websocket APIs.
    Also, for the currecy data update, I used the RequestAnimationFrame, but this depends on computers hardware even though mostly it generates
-   approximately 60 times per second. For this project, I used the Rest API, so this rate would be sufficient. However, ideally, I wanted to use
-   the fast and efficient backend fetch tools if I had more time. 
+   approximately 60 times per second. For this project, I used the Rest API and assumed smaller user traffic, so this rate would be sufficient. However, ideally, I    wanted to use the fast and efficient backend fetch tools if I had more time. 
