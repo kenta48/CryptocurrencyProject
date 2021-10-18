@@ -2,7 +2,7 @@
 Website to compare two cryptocurrency prices(BTC&amp;ETH) at the two different exchanges
 
 ## instructions on how to build and run
-If using the terminal, type <code>python3 -m http.server</code> in that directory<br/>  
+If using the terminal, type <code>python3 -m http.server</code> in that directory, or can use the command <code>npx http-server [path] [options]</code><br/>  
 Personally, I used the VScode to build and used “live server” that is part of Visual Studio Code
 ### Questionnaire:
 1. Are there any sub-optimal choices( or short cuts taken due to limited time ) in your implementation?
